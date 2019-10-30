@@ -72,6 +72,7 @@
     <Compile Include="Internals\IAMCrossbar.cs" />
     <Compile Include="Internals\IAMStreamConfig.cs" />
     <Compile Include="Internals\IAMVideoControl.cs" />
+    <Compile Include="Internals\IAMVideoProcAmp.cs" />
     <Compile Include="Internals\IBaseFilter.cs" />
     <Compile Include="Internals\ICaptureGraphBuilder2.cs" />
     <Compile Include="Internals\ICreateDevEnum.cs" />
@@ -115,6 +116,7 @@
       <DependentUpon>VideoCaptureDeviceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="VideoInput.cs" />
+    <Compile Include="VideoProcAmpProperty.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AForge.Video.DirectShow.snk" />
